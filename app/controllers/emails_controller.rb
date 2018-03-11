@@ -1,5 +1,11 @@
 class EmailsController < ApplicationController
 
+  def index
+    @emails = Email.all
+    render json:@emails
+  end
+
+
   def show
     @email = Email.find_by(id: params[:id])
     render json:@email
