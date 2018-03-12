@@ -21,6 +21,6 @@ Song.create(video_url: "https://www.youtube.com/watch?v=2QiC6mT_jTc", title: "As
 Song.create(video_url: "https://www.youtube.com/watch?v=5sztnqaDNPQ", title: "Tonight", singer: "Carla Stickler & Brent Michael DiRoma", venue: "(le) poisson rouge", date: "March 23, 2015")
 
 
-Project.create(video_url: "", title: "Behind the Music", description: "What’s truly behind the music? Find out by uploading your audio clips to see its spectral analysis and waveform.", github_link: "https://github.com/djovercash/Behind_the_Music")
-Project.create(video_url: "", title: "Bad News Bears", description: "A interactive and fun platform where users share their bad ideas and vote on those of others.", github_link: "https://github.com/djovercash/Bad_News_Bears")
-Project.create(video_url: "", title: "Task Cheetah", description: "Become a cheetah! Users can help other cheetahs with their tasks and post tasks for cheetah points.", github_link: "https://github.com/djovercash/Task_Cheetah")
+Project.create(video_url: "https://www.youtube.com/watch?v=ZTC-Z5_spmU", title: "Behind the Music", description: "What’s truly behind the music? Find out by uploading audio clips to see a spectral analysis and waveform.", github_link: "https://github.com/djovercash/Behind_the_Music")
+Project.create(video_url: "https://www.youtube.com/watch?v=ZTC-Z5_spmU", title: "Bad News Bears", description: "A interactive and fun platform where users share their bad ideas and vote on those of others.", github_link: "https://github.com/djovercash/Bad_News_Bears")
+Project.create(video_url: "https://www.youtube.com/watch?v=ZTC-Z5_spmU", title: "Task Cheetah", description: "Become a cheetah! Users can help other cheetahs with their tasks and post tasks for cheetah points.", github_link: "https://github.com/djovercash/Task_Cheetah")
