@@ -1,5 +1,5 @@
 class Emailer < ActionMailer::Base
-  default from: 'do@do.com'
+  default from: 'drewovercash@gmail.com'
 
   def sendEmail(user, email, subject, body)
     @user = user
